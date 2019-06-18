@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5D66A6AD4CB24782893EE886 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 53CF8381033141328F024102 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				26C00B8AA96548438E20A9A5 /* CMake Rules */,
+			);
+			dependencies = (
+				3F0B3F9A6A014FD99D95D33A /* PBXTargetDependency */,
+				C76D4744794C4005956A80DD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		85107C1EE32549B09D0DAA22 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FE2E8B8D86E40E39C668298 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				853864435B064056A30A80C9 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A95BE80DFEE419594D3B166 /* /Users/jingpeilu/Desktop/libelas/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DD7AD794C41949ABBD825826 /* /Users/jingpeilu/Desktop/libelas/CMakeLists.txt */; };
+		4101A8060F2F4D4C93B39BED /* /Users/jingpeilu/Desktop/libelas/src/elas.cpp */ = {isa = PBXBuildFile; fileRef = 574FDE8FC5B34028B00EC38D /* /Users/jingpeilu/Desktop/libelas/src/elas.cpp */; };
+		51485F56AA354837A896A52A /* /Users/jingpeilu/Desktop/libelas/src/descriptor.cpp */ = {isa = PBXBuildFile; fileRef = 1847511A30584D578BF4417D /* /Users/jingpeilu/Desktop/libelas/src/descriptor.cpp */; };
+		6039795A190A432CBE3A020F /* /Users/jingpeilu/Desktop/libelas/src/filter.cpp */ = {isa = PBXBuildFile; fileRef = FEFEBDF70EA94F4388C3A1A9 /* /Users/jingpeilu/Desktop/libelas/src/filter.cpp */; };
+		64EEA2F8E1114E4590628D72 /* /Users/jingpeilu/Desktop/libelas/src/matrix.cpp */ = {isa = PBXBuildFile; fileRef = 3828A04D1ABC40F39FBBF4E2 /* /Users/jingpeilu/Desktop/libelas/src/matrix.cpp */; };
+		AE70D5C1AADD44DF92B4C64C /* /Users/jingpeilu/Desktop/libelas/src/main.cpp */ = {isa = PBXBuildFile; fileRef = E8B268B9C85A4E42B2E085D1 /* /Users/jingpeilu/Desktop/libelas/src/main.cpp */; };
+		C4CD4A7D5408461C8B14524B /* /Users/jingpeilu/Desktop/libelas/src/triangle.cpp */ = {isa = PBXBuildFile; fileRef = 2AE2680C113E4F74B0D50F91 /* /Users/jingpeilu/Desktop/libelas/src/triangle.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		266B5887944F4AA8B30A73A6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8F8AB9186D4D482FA3A027C0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9827C46CBB804550B3D2664E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C494C890E86F408FAA96134E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		102FC73061454021B05B5D76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F00C873E6324C10A4AB97BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85107C1EE32549B09D0DAA22;
+			remoteInfo = ZERO_CHECK;
+		};
+		6014BE8176D944918B57519B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F00C873E6324C10A4AB97BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD28D6D46D3C4DE3802A0225;
+			remoteInfo = elas;
+		};
+		6A4D079641284CA682AFB696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F00C873E6324C10A4AB97BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85107C1EE32549B09D0DAA22;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1847511A30584D578BF4417D /* /Users/jingpeilu/Desktop/libelas/src/descriptor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.cpp; path = src/descriptor.cpp; sourceTree = SOURCE_ROOT; };
+		27D45A3068154E859B606CEE /* /Users/jingpeilu/Desktop/libelas/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2AE2680C113E4F74B0D50F91 /* /Users/jingpeilu/Desktop/libelas/src/triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangle.cpp; path = src/triangle.cpp; sourceTree = SOURCE_ROOT; };
+		3828A04D1ABC40F39FBBF4E2 /* /Users/jingpeilu/Desktop/libelas/src/matrix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix.cpp; path = src/matrix.cpp; sourceTree = SOURCE_ROOT; };
+		574FDE8FC5B34028B00EC38D /* /Users/jingpeilu/Desktop/libelas/src/elas.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = elas.cpp; path = src/elas.cpp; sourceTree = SOURCE_ROOT; };
+		635C72E022BB4A48904623FC /* elas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = elas; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7AD794C41949ABBD825826 /* /Users/jingpeilu/Desktop/libelas/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E8B268B9C85A4E42B2E085D1 /* /Users/jingpeilu/Desktop/libelas/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		FEFEBDF70EA94F4388C3A1A9 /* /Users/jingpeilu/Desktop/libelas/src/filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filter.cpp; path = src/filter.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		129ECEBECBE5400BB0FE1A21 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		24B345D5BF244F4B9D3F81B4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				129ECEBECBE5400BB0FE1A21 /* CMake Rules */,
+				27D45A3068154E859B606CEE /* /Users/jingpeilu/Desktop/libelas/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5F3754D7E4D44B4E895F9DD6 = {
+			isa = PBXGroup;
+			children = (
+				E5EDCFC8E4F74E1EB99D406C /* elas */,
+				24B345D5BF244F4B9D3F81B4 /* ALL_BUILD */,
+				EBABFC80AC4B417598C4BCF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8815968969D64545853442AE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1847511A30584D578BF4417D /* /Users/jingpeilu/Desktop/libelas/src/descriptor.cpp */,
+				574FDE8FC5B34028B00EC38D /* /Users/jingpeilu/Desktop/libelas/src/elas.cpp */,
+				FEFEBDF70EA94F4388C3A1A9 /* /Users/jingpeilu/Desktop/libelas/src/filter.cpp */,
+				E8B268B9C85A4E42B2E085D1 /* /Users/jingpeilu/Desktop/libelas/src/main.cpp */,
+				3828A04D1ABC40F39FBBF4E2 /* /Users/jingpeilu/Desktop/libelas/src/matrix.cpp */,
+				2AE2680C113E4F74B0D50F91 /* /Users/jingpeilu/Desktop/libelas/src/triangle.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E5EDCFC8E4F74E1EB99D406C /* elas */ = {
+			isa = PBXGroup;
+			children = (
+				8815968969D64545853442AE /* Source Files */,
+				DD7AD794C41949ABBD825826 /* /Users/jingpeilu/Desktop/libelas/CMakeLists.txt */,
+			);
+			name = elas;
+			sourceTree = "<group>";
+		};
+		EBABFC80AC4B417598C4BCF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635C72E022BB4A48904623FC /* elas */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD28D6D46D3C4DE3802A0225 /* elas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8777CC6C6C2F48ADAC744E85 /* Build configuration list for PBXNativeTarget "elas" */;
+			buildPhases = (
+				F7E17E91696C49DFA6BB83D7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED08B68B52844D7B97FBC73 /* PBXTargetDependency */,
+			);
+			name = elas;
+			productName = elas;
+			productReference = 635C72E022BB4A48904623FC /* elas */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F00C873E6324C10A4AB97BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 74EEF3ADF1524CD3977F6514 /* Build configuration list for PBXProject "libelas" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8F8AB9186D4D482FA3A027C0 /* Debug */,
+				C494C890E86F408FAA96134E /* Release */,
+				9827C46CBB804550B3D2664E /* MinSizeRel */,
+				266B5887944F4AA8B30A73A6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 5F3754D7E4D44B4E895F9DD6;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				5D66A6AD4CB24782893EE886 /* ALL_BUILD */,
+				85107C1EE32549B09D0DAA22 /* ZERO_CHECK */,
+				AD28D6D46D3C4DE3802A0225 /* elas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26C00B8AA96548438E20A9A5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jingpeilu/Desktop/libelas/build -f /Users/jingpeilu/Desktop/libelas/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		853864435B064056A30A80C9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jingpeilu/Desktop/libelas/build -f /Users/jingpeilu/Desktop/libelas/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BA42A9B73BA34CA58D4792D4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D554435902A24DE1B9C43B22 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E17E91696C49DFA6BB83D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51485F56AA354837A896A52A /* /Users/jingpeilu/Desktop/libelas/src/descriptor.cpp */,
+				4101A8060F2F4D4C93B39BED /* /Users/jingpeilu/Desktop/libelas/src/elas.cpp */,
+				6039795A190A432CBE3A020F /* /Users/jingpeilu/Desktop/libelas/src/filter.cpp */,
+				AE70D5C1AADD44DF92B4C64C /* /Users/jingpeilu/Desktop/libelas/src/main.cpp */,
+				64EEA2F8E1114E4590628D72 /* /Users/jingpeilu/Desktop/libelas/src/matrix.cpp */,
+				C4CD4A7D5408461C8B14524B /* /Users/jingpeilu/Desktop/libelas/src/triangle.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0B3F9A6A014FD99D95D33A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD28D6D46D3C4DE3802A0225 /* elas */;
+			targetProxy = 6014BE8176D944918B57519B /* PBXContainerItemProxy */;
+		};
+		C76D4744794C4005956A80DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85107C1EE32549B09D0DAA22 /* ZERO_CHECK */;
+			targetProxy = 6A4D079641284CA682AFB696 /* PBXContainerItemProxy */;
+		};
+		FED08B68B52844D7B97FBC73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85107C1EE32549B09D0DAA22 /* ZERO_CHECK */;
+			targetProxy = 102FC73061454021B05B5D76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07B64C53586B4F9A9F3DD74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jingpeilu/Desktop/libelas/src);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-msse3     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.0.1.dylib /usr/local/lib/libopencv_stitching.4.0.1.dylib /usr/local/lib/libopencv_aruco.4.0.1.dylib /usr/local/lib/libopencv_bgsegm.4.0.1.dylib /usr/local/lib/libopencv_bioinspired.4.0.1.dylib /usr/local/lib/libopencv_ccalib.4.0.1.dylib /usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib /usr/local/lib/libopencv_dpm.4.0.1.dylib /usr/local/lib/libopencv_face.4.0.1.dylib /usr/local/lib/libopencv_fuzzy.4.0.1.dylib /usr/local/lib/libopencv_hfs.4.0.1.dylib /usr/local/lib/libopencv_img_hash.4.0.1.dylib /usr/local/lib/libopencv_line_descriptor.4.0.1.dylib /usr/local/lib/libopencv_reg.4.0.1.dylib /usr/local/lib/libopencv_rgbd.4.0.1.dylib /usr/local/lib/libopencv_saliency.4.0.1.dylib /usr/local/lib/libopencv_stereo.4.0.1.dylib /usr/local/lib/libopencv_structured_light.4.0.1.dylib /usr/local/lib/libopencv_superres.4.0.1.dylib /usr/local/lib/libopencv_surface_matching.4.0.1.dylib /usr/local/lib/libopencv_tracking.4.0.1.dylib /usr/local/lib/libopencv_videostab.4.0.1.dylib /usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib /usr/local/lib/libopencv_xobjdetect.4.0.1.dylib /usr/local/lib/libopencv_xphoto.4.0.1.dylib /usr/local/lib/libopencv_shape.4.0.1.dylib /usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib /usr/local/lib/libopencv_optflow.4.0.1.dylib /usr/local/lib/libopencv_ximgproc.4.0.1.dylib /usr/local/lib/libopencv_dnn.4.0.1.dylib /usr/local/lib/libopencv_datasets.4.0.1.dylib /usr/local/lib/libopencv_ml.4.0.1.dylib /usr/local/lib/libopencv_plot.4.0.1.dylib /usr/local/lib/libopencv_video.4.0.1.dylib /usr/local/lib/libopencv_objdetect.4.0.1.dylib /usr/local/lib/libopencv_calib3d.4.0.1.dylib /usr/local/lib/libopencv_features2d.4.0.1.dylib /usr/local/lib/libopencv_flann.4.0.1.dylib /usr/local/lib/libopencv_highgui.4.0.1.dylib /usr/local/lib/libopencv_videoio.4.0.1.dylib /usr/local/lib/libopencv_imgcodecs.4.0.1.dylib /usr/local/lib/libopencv_photo.4.0.1.dylib /usr/local/lib/libopencv_imgproc.4.0.1.dylib /usr/local/lib/libopencv_core.4.0.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = elas;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0D158550372A42B9A9062D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		114D9F1F274346BAB88204C3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		32A620F780BC4B9C8B78F851 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		335EB375F2DF454DAF54065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3A6D854E0379443E831EA81E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		3E63206B03FB4173BD695F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6AB21CB029FF43F4BD92E057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build/build;
+			};
+			name = Release;
+		};
+		6F7DC8E4883A46538E859FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jingpeilu/Desktop/libelas/src);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-msse3     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.0.1.dylib /usr/local/lib/libopencv_stitching.4.0.1.dylib /usr/local/lib/libopencv_aruco.4.0.1.dylib /usr/local/lib/libopencv_bgsegm.4.0.1.dylib /usr/local/lib/libopencv_bioinspired.4.0.1.dylib /usr/local/lib/libopencv_ccalib.4.0.1.dylib /usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib /usr/local/lib/libopencv_dpm.4.0.1.dylib /usr/local/lib/libopencv_face.4.0.1.dylib /usr/local/lib/libopencv_fuzzy.4.0.1.dylib /usr/local/lib/libopencv_hfs.4.0.1.dylib /usr/local/lib/libopencv_img_hash.4.0.1.dylib /usr/local/lib/libopencv_line_descriptor.4.0.1.dylib /usr/local/lib/libopencv_reg.4.0.1.dylib /usr/local/lib/libopencv_rgbd.4.0.1.dylib /usr/local/lib/libopencv_saliency.4.0.1.dylib /usr/local/lib/libopencv_stereo.4.0.1.dylib /usr/local/lib/libopencv_structured_light.4.0.1.dylib /usr/local/lib/libopencv_superres.4.0.1.dylib /usr/local/lib/libopencv_surface_matching.4.0.1.dylib /usr/local/lib/libopencv_tracking.4.0.1.dylib /usr/local/lib/libopencv_videostab.4.0.1.dylib /usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib /usr/local/lib/libopencv_xobjdetect.4.0.1.dylib /usr/local/lib/libopencv_xphoto.4.0.1.dylib /usr/local/lib/libopencv_shape.4.0.1.dylib /usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib /usr/local/lib/libopencv_optflow.4.0.1.dylib /usr/local/lib/libopencv_ximgproc.4.0.1.dylib /usr/local/lib/libopencv_dnn.4.0.1.dylib /usr/local/lib/libopencv_datasets.4.0.1.dylib /usr/local/lib/libopencv_ml.4.0.1.dylib /usr/local/lib/libopencv_plot.4.0.1.dylib /usr/local/lib/libopencv_video.4.0.1.dylib /usr/local/lib/libopencv_objdetect.4.0.1.dylib /usr/local/lib/libopencv_calib3d.4.0.1.dylib /usr/local/lib/libopencv_features2d.4.0.1.dylib /usr/local/lib/libopencv_flann.4.0.1.dylib /usr/local/lib/libopencv_highgui.4.0.1.dylib /usr/local/lib/libopencv_videoio.4.0.1.dylib /usr/local/lib/libopencv_imgcodecs.4.0.1.dylib /usr/local/lib/libopencv_photo.4.0.1.dylib /usr/local/lib/libopencv_imgproc.4.0.1.dylib /usr/local/lib/libopencv_core.4.0.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = elas;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8280B3735DF6419391FE3A17 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D17335656FA94E78939479AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D23B460651A34ADFB5A195C2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jingpeilu/Desktop/libelas/src);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-msse3        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.0.1.dylib /usr/local/lib/libopencv_stitching.4.0.1.dylib /usr/local/lib/libopencv_aruco.4.0.1.dylib /usr/local/lib/libopencv_bgsegm.4.0.1.dylib /usr/local/lib/libopencv_bioinspired.4.0.1.dylib /usr/local/lib/libopencv_ccalib.4.0.1.dylib /usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib /usr/local/lib/libopencv_dpm.4.0.1.dylib /usr/local/lib/libopencv_face.4.0.1.dylib /usr/local/lib/libopencv_fuzzy.4.0.1.dylib /usr/local/lib/libopencv_hfs.4.0.1.dylib /usr/local/lib/libopencv_img_hash.4.0.1.dylib /usr/local/lib/libopencv_line_descriptor.4.0.1.dylib /usr/local/lib/libopencv_reg.4.0.1.dylib /usr/local/lib/libopencv_rgbd.4.0.1.dylib /usr/local/lib/libopencv_saliency.4.0.1.dylib /usr/local/lib/libopencv_stereo.4.0.1.dylib /usr/local/lib/libopencv_structured_light.4.0.1.dylib /usr/local/lib/libopencv_superres.4.0.1.dylib /usr/local/lib/libopencv_surface_matching.4.0.1.dylib /usr/local/lib/libopencv_tracking.4.0.1.dylib /usr/local/lib/libopencv_videostab.4.0.1.dylib /usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib /usr/local/lib/libopencv_xobjdetect.4.0.1.dylib /usr/local/lib/libopencv_xphoto.4.0.1.dylib /usr/local/lib/libopencv_shape.4.0.1.dylib /usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib /usr/local/lib/libopencv_optflow.4.0.1.dylib /usr/local/lib/libopencv_ximgproc.4.0.1.dylib /usr/local/lib/libopencv_dnn.4.0.1.dylib /usr/local/lib/libopencv_datasets.4.0.1.dylib /usr/local/lib/libopencv_ml.4.0.1.dylib /usr/local/lib/libopencv_plot.4.0.1.dylib /usr/local/lib/libopencv_video.4.0.1.dylib /usr/local/lib/libopencv_objdetect.4.0.1.dylib /usr/local/lib/libopencv_calib3d.4.0.1.dylib /usr/local/lib/libopencv_features2d.4.0.1.dylib /usr/local/lib/libopencv_flann.4.0.1.dylib /usr/local/lib/libopencv_highgui.4.0.1.dylib /usr/local/lib/libopencv_videoio.4.0.1.dylib /usr/local/lib/libopencv_imgcodecs.4.0.1.dylib /usr/local/lib/libopencv_photo.4.0.1.dylib /usr/local/lib/libopencv_imgproc.4.0.1.dylib /usr/local/lib/libopencv_core.4.0.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = elas;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EEFF1C7F3C5A4BD6BC0A4700 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/jingpeilu/Desktop/libelas/src);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-msse3     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_gapi.4.0.1.dylib /usr/local/lib/libopencv_stitching.4.0.1.dylib /usr/local/lib/libopencv_aruco.4.0.1.dylib /usr/local/lib/libopencv_bgsegm.4.0.1.dylib /usr/local/lib/libopencv_bioinspired.4.0.1.dylib /usr/local/lib/libopencv_ccalib.4.0.1.dylib /usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib /usr/local/lib/libopencv_dpm.4.0.1.dylib /usr/local/lib/libopencv_face.4.0.1.dylib /usr/local/lib/libopencv_fuzzy.4.0.1.dylib /usr/local/lib/libopencv_hfs.4.0.1.dylib /usr/local/lib/libopencv_img_hash.4.0.1.dylib /usr/local/lib/libopencv_line_descriptor.4.0.1.dylib /usr/local/lib/libopencv_reg.4.0.1.dylib /usr/local/lib/libopencv_rgbd.4.0.1.dylib /usr/local/lib/libopencv_saliency.4.0.1.dylib /usr/local/lib/libopencv_stereo.4.0.1.dylib /usr/local/lib/libopencv_structured_light.4.0.1.dylib /usr/local/lib/libopencv_superres.4.0.1.dylib /usr/local/lib/libopencv_surface_matching.4.0.1.dylib /usr/local/lib/libopencv_tracking.4.0.1.dylib /usr/local/lib/libopencv_videostab.4.0.1.dylib /usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib /usr/local/lib/libopencv_xobjdetect.4.0.1.dylib /usr/local/lib/libopencv_xphoto.4.0.1.dylib /usr/local/lib/libopencv_shape.4.0.1.dylib /usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib /usr/local/lib/libopencv_optflow.4.0.1.dylib /usr/local/lib/libopencv_ximgproc.4.0.1.dylib /usr/local/lib/libopencv_dnn.4.0.1.dylib /usr/local/lib/libopencv_datasets.4.0.1.dylib /usr/local/lib/libopencv_ml.4.0.1.dylib /usr/local/lib/libopencv_plot.4.0.1.dylib /usr/local/lib/libopencv_video.4.0.1.dylib /usr/local/lib/libopencv_objdetect.4.0.1.dylib /usr/local/lib/libopencv_calib3d.4.0.1.dylib /usr/local/lib/libopencv_features2d.4.0.1.dylib /usr/local/lib/libopencv_flann.4.0.1.dylib /usr/local/lib/libopencv_highgui.4.0.1.dylib /usr/local/lib/libopencv_videoio.4.0.1.dylib /usr/local/lib/libopencv_imgcodecs.4.0.1.dylib /usr/local/lib/libopencv_photo.4.0.1.dylib /usr/local/lib/libopencv_imgproc.4.0.1.dylib /usr/local/lib/libopencv_core.4.0.1.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = elas;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F723B72D02BC48E39B159296 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build/build;
+			};
+			name = MinSizeRel;
+		};
+		FB26322640D34FAFA1B7FFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build/build;
+			};
+			name = Debug;
+		};
+		FE4BD63A9A6B4B259C9F9A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/jingpeilu/Desktop/libelas/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE2E8B8D86E40E39C668298 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D158550372A42B9A9062D45 /* Debug */,
+				335EB375F2DF454DAF54065A /* Release */,
+				32A620F780BC4B9C8B78F851 /* MinSizeRel */,
+				D17335656FA94E78939479AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		53CF8381033141328F024102 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E63206B03FB4173BD695F0C /* Debug */,
+				FE4BD63A9A6B4B259C9F9A15 /* Release */,
+				8280B3735DF6419391FE3A17 /* MinSizeRel */,
+				114D9F1F274346BAB88204C3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		74EEF3ADF1524CD3977F6514 /* Build configuration list for PBXProject "libelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB26322640D34FAFA1B7FFE7 /* Debug */,
+				6AB21CB029FF43F4BD92E057 /* Release */,
+				F723B72D02BC48E39B159296 /* MinSizeRel */,
+				3A6D854E0379443E831EA81E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8777CC6C6C2F48ADAC744E85 /* Build configuration list for PBXNativeTarget "elas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7DC8E4883A46538E859FF5 /* Debug */,
+				07B64C53586B4F9A9F3DD74B /* Release */,
+				EEFF1C7F3C5A4BD6BC0A4700 /* MinSizeRel */,
+				D23B460651A34ADFB5A195C2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F00C873E6324C10A4AB97BE /* Project object */;
+}

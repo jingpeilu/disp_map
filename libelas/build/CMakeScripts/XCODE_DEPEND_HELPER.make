@@ -1,0 +1,252 @@
+# DO NOT EDIT
+# This makefile makes sure all linkable targets are
+# up-to-date with anything they link to
+default:
+	echo "Do not invoke directly"
+
+# Rules to remove targets that are older than anything to which they
+# link.  This forces Xcode to relink the targets from scratch.  It
+# does not seem to check these dependencies itself.
+PostBuild.elas.Debug:
+/Users/jingpeilu/Desktop/libelas/build/Debug/elas:\
+	/usr/local/lib/libopencv_gapi.4.0.1.dylib\
+	/usr/local/lib/libopencv_stitching.4.0.1.dylib\
+	/usr/local/lib/libopencv_aruco.4.0.1.dylib\
+	/usr/local/lib/libopencv_bgsegm.4.0.1.dylib\
+	/usr/local/lib/libopencv_bioinspired.4.0.1.dylib\
+	/usr/local/lib/libopencv_ccalib.4.0.1.dylib\
+	/usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_dpm.4.0.1.dylib\
+	/usr/local/lib/libopencv_face.4.0.1.dylib\
+	/usr/local/lib/libopencv_fuzzy.4.0.1.dylib\
+	/usr/local/lib/libopencv_hfs.4.0.1.dylib\
+	/usr/local/lib/libopencv_img_hash.4.0.1.dylib\
+	/usr/local/lib/libopencv_line_descriptor.4.0.1.dylib\
+	/usr/local/lib/libopencv_reg.4.0.1.dylib\
+	/usr/local/lib/libopencv_rgbd.4.0.1.dylib\
+	/usr/local/lib/libopencv_saliency.4.0.1.dylib\
+	/usr/local/lib/libopencv_stereo.4.0.1.dylib\
+	/usr/local/lib/libopencv_structured_light.4.0.1.dylib\
+	/usr/local/lib/libopencv_superres.4.0.1.dylib\
+	/usr/local/lib/libopencv_surface_matching.4.0.1.dylib\
+	/usr/local/lib/libopencv_tracking.4.0.1.dylib\
+	/usr/local/lib/libopencv_videostab.4.0.1.dylib\
+	/usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib\
+	/usr/local/lib/libopencv_xobjdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_xphoto.4.0.1.dylib\
+	/usr/local/lib/libopencv_shape.4.0.1.dylib\
+	/usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib\
+	/usr/local/lib/libopencv_optflow.4.0.1.dylib\
+	/usr/local/lib/libopencv_ximgproc.4.0.1.dylib\
+	/usr/local/lib/libopencv_dnn.4.0.1.dylib\
+	/usr/local/lib/libopencv_datasets.4.0.1.dylib\
+	/usr/local/lib/libopencv_ml.4.0.1.dylib\
+	/usr/local/lib/libopencv_plot.4.0.1.dylib\
+	/usr/local/lib/libopencv_video.4.0.1.dylib\
+	/usr/local/lib/libopencv_objdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_calib3d.4.0.1.dylib\
+	/usr/local/lib/libopencv_features2d.4.0.1.dylib\
+	/usr/local/lib/libopencv_flann.4.0.1.dylib\
+	/usr/local/lib/libopencv_highgui.4.0.1.dylib\
+	/usr/local/lib/libopencv_videoio.4.0.1.dylib\
+	/usr/local/lib/libopencv_imgcodecs.4.0.1.dylib\
+	/usr/local/lib/libopencv_photo.4.0.1.dylib\
+	/usr/local/lib/libopencv_imgproc.4.0.1.dylib\
+	/usr/local/lib/libopencv_core.4.0.1.dylib
+	/bin/rm -f /Users/jingpeilu/Desktop/libelas/build/Debug/elas
+
+
+PostBuild.elas.Release:
+/Users/jingpeilu/Desktop/libelas/build/Release/elas:\
+	/usr/local/lib/libopencv_gapi.4.0.1.dylib\
+	/usr/local/lib/libopencv_stitching.4.0.1.dylib\
+	/usr/local/lib/libopencv_aruco.4.0.1.dylib\
+	/usr/local/lib/libopencv_bgsegm.4.0.1.dylib\
+	/usr/local/lib/libopencv_bioinspired.4.0.1.dylib\
+	/usr/local/lib/libopencv_ccalib.4.0.1.dylib\
+	/usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_dpm.4.0.1.dylib\
+	/usr/local/lib/libopencv_face.4.0.1.dylib\
+	/usr/local/lib/libopencv_fuzzy.4.0.1.dylib\
+	/usr/local/lib/libopencv_hfs.4.0.1.dylib\
+	/usr/local/lib/libopencv_img_hash.4.0.1.dylib\
+	/usr/local/lib/libopencv_line_descriptor.4.0.1.dylib\
+	/usr/local/lib/libopencv_reg.4.0.1.dylib\
+	/usr/local/lib/libopencv_rgbd.4.0.1.dylib\
+	/usr/local/lib/libopencv_saliency.4.0.1.dylib\
+	/usr/local/lib/libopencv_stereo.4.0.1.dylib\
+	/usr/local/lib/libopencv_structured_light.4.0.1.dylib\
+	/usr/local/lib/libopencv_superres.4.0.1.dylib\
+	/usr/local/lib/libopencv_surface_matching.4.0.1.dylib\
+	/usr/local/lib/libopencv_tracking.4.0.1.dylib\
+	/usr/local/lib/libopencv_videostab.4.0.1.dylib\
+	/usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib\
+	/usr/local/lib/libopencv_xobjdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_xphoto.4.0.1.dylib\
+	/usr/local/lib/libopencv_shape.4.0.1.dylib\
+	/usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib\
+	/usr/local/lib/libopencv_optflow.4.0.1.dylib\
+	/usr/local/lib/libopencv_ximgproc.4.0.1.dylib\
+	/usr/local/lib/libopencv_dnn.4.0.1.dylib\
+	/usr/local/lib/libopencv_datasets.4.0.1.dylib\
+	/usr/local/lib/libopencv_ml.4.0.1.dylib\
+	/usr/local/lib/libopencv_plot.4.0.1.dylib\
+	/usr/local/lib/libopencv_video.4.0.1.dylib\
+	/usr/local/lib/libopencv_objdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_calib3d.4.0.1.dylib\
+	/usr/local/lib/libopencv_features2d.4.0.1.dylib\
+	/usr/local/lib/libopencv_flann.4.0.1.dylib\
+	/usr/local/lib/libopencv_highgui.4.0.1.dylib\
+	/usr/local/lib/libopencv_videoio.4.0.1.dylib\
+	/usr/local/lib/libopencv_imgcodecs.4.0.1.dylib\
+	/usr/local/lib/libopencv_photo.4.0.1.dylib\
+	/usr/local/lib/libopencv_imgproc.4.0.1.dylib\
+	/usr/local/lib/libopencv_core.4.0.1.dylib
+	/bin/rm -f /Users/jingpeilu/Desktop/libelas/build/Release/elas
+
+
+PostBuild.elas.MinSizeRel:
+/Users/jingpeilu/Desktop/libelas/build/MinSizeRel/elas:\
+	/usr/local/lib/libopencv_gapi.4.0.1.dylib\
+	/usr/local/lib/libopencv_stitching.4.0.1.dylib\
+	/usr/local/lib/libopencv_aruco.4.0.1.dylib\
+	/usr/local/lib/libopencv_bgsegm.4.0.1.dylib\
+	/usr/local/lib/libopencv_bioinspired.4.0.1.dylib\
+	/usr/local/lib/libopencv_ccalib.4.0.1.dylib\
+	/usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_dpm.4.0.1.dylib\
+	/usr/local/lib/libopencv_face.4.0.1.dylib\
+	/usr/local/lib/libopencv_fuzzy.4.0.1.dylib\
+	/usr/local/lib/libopencv_hfs.4.0.1.dylib\
+	/usr/local/lib/libopencv_img_hash.4.0.1.dylib\
+	/usr/local/lib/libopencv_line_descriptor.4.0.1.dylib\
+	/usr/local/lib/libopencv_reg.4.0.1.dylib\
+	/usr/local/lib/libopencv_rgbd.4.0.1.dylib\
+	/usr/local/lib/libopencv_saliency.4.0.1.dylib\
+	/usr/local/lib/libopencv_stereo.4.0.1.dylib\
+	/usr/local/lib/libopencv_structured_light.4.0.1.dylib\
+	/usr/local/lib/libopencv_superres.4.0.1.dylib\
+	/usr/local/lib/libopencv_surface_matching.4.0.1.dylib\
+	/usr/local/lib/libopencv_tracking.4.0.1.dylib\
+	/usr/local/lib/libopencv_videostab.4.0.1.dylib\
+	/usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib\
+	/usr/local/lib/libopencv_xobjdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_xphoto.4.0.1.dylib\
+	/usr/local/lib/libopencv_shape.4.0.1.dylib\
+	/usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib\
+	/usr/local/lib/libopencv_optflow.4.0.1.dylib\
+	/usr/local/lib/libopencv_ximgproc.4.0.1.dylib\
+	/usr/local/lib/libopencv_dnn.4.0.1.dylib\
+	/usr/local/lib/libopencv_datasets.4.0.1.dylib\
+	/usr/local/lib/libopencv_ml.4.0.1.dylib\
+	/usr/local/lib/libopencv_plot.4.0.1.dylib\
+	/usr/local/lib/libopencv_video.4.0.1.dylib\
+	/usr/local/lib/libopencv_objdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_calib3d.4.0.1.dylib\
+	/usr/local/lib/libopencv_features2d.4.0.1.dylib\
+	/usr/local/lib/libopencv_flann.4.0.1.dylib\
+	/usr/local/lib/libopencv_highgui.4.0.1.dylib\
+	/usr/local/lib/libopencv_videoio.4.0.1.dylib\
+	/usr/local/lib/libopencv_imgcodecs.4.0.1.dylib\
+	/usr/local/lib/libopencv_photo.4.0.1.dylib\
+	/usr/local/lib/libopencv_imgproc.4.0.1.dylib\
+	/usr/local/lib/libopencv_core.4.0.1.dylib
+	/bin/rm -f /Users/jingpeilu/Desktop/libelas/build/MinSizeRel/elas
+
+
+PostBuild.elas.RelWithDebInfo:
+/Users/jingpeilu/Desktop/libelas/build/RelWithDebInfo/elas:\
+	/usr/local/lib/libopencv_gapi.4.0.1.dylib\
+	/usr/local/lib/libopencv_stitching.4.0.1.dylib\
+	/usr/local/lib/libopencv_aruco.4.0.1.dylib\
+	/usr/local/lib/libopencv_bgsegm.4.0.1.dylib\
+	/usr/local/lib/libopencv_bioinspired.4.0.1.dylib\
+	/usr/local/lib/libopencv_ccalib.4.0.1.dylib\
+	/usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_dpm.4.0.1.dylib\
+	/usr/local/lib/libopencv_face.4.0.1.dylib\
+	/usr/local/lib/libopencv_fuzzy.4.0.1.dylib\
+	/usr/local/lib/libopencv_hfs.4.0.1.dylib\
+	/usr/local/lib/libopencv_img_hash.4.0.1.dylib\
+	/usr/local/lib/libopencv_line_descriptor.4.0.1.dylib\
+	/usr/local/lib/libopencv_reg.4.0.1.dylib\
+	/usr/local/lib/libopencv_rgbd.4.0.1.dylib\
+	/usr/local/lib/libopencv_saliency.4.0.1.dylib\
+	/usr/local/lib/libopencv_stereo.4.0.1.dylib\
+	/usr/local/lib/libopencv_structured_light.4.0.1.dylib\
+	/usr/local/lib/libopencv_superres.4.0.1.dylib\
+	/usr/local/lib/libopencv_surface_matching.4.0.1.dylib\
+	/usr/local/lib/libopencv_tracking.4.0.1.dylib\
+	/usr/local/lib/libopencv_videostab.4.0.1.dylib\
+	/usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib\
+	/usr/local/lib/libopencv_xobjdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_xphoto.4.0.1.dylib\
+	/usr/local/lib/libopencv_shape.4.0.1.dylib\
+	/usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib\
+	/usr/local/lib/libopencv_optflow.4.0.1.dylib\
+	/usr/local/lib/libopencv_ximgproc.4.0.1.dylib\
+	/usr/local/lib/libopencv_dnn.4.0.1.dylib\
+	/usr/local/lib/libopencv_datasets.4.0.1.dylib\
+	/usr/local/lib/libopencv_ml.4.0.1.dylib\
+	/usr/local/lib/libopencv_plot.4.0.1.dylib\
+	/usr/local/lib/libopencv_video.4.0.1.dylib\
+	/usr/local/lib/libopencv_objdetect.4.0.1.dylib\
+	/usr/local/lib/libopencv_calib3d.4.0.1.dylib\
+	/usr/local/lib/libopencv_features2d.4.0.1.dylib\
+	/usr/local/lib/libopencv_flann.4.0.1.dylib\
+	/usr/local/lib/libopencv_highgui.4.0.1.dylib\
+	/usr/local/lib/libopencv_videoio.4.0.1.dylib\
+	/usr/local/lib/libopencv_imgcodecs.4.0.1.dylib\
+	/usr/local/lib/libopencv_photo.4.0.1.dylib\
+	/usr/local/lib/libopencv_imgproc.4.0.1.dylib\
+	/usr/local/lib/libopencv_core.4.0.1.dylib
+	/bin/rm -f /Users/jingpeilu/Desktop/libelas/build/RelWithDebInfo/elas
+
+
+
+
+# For each target create a dummy ruleso the target does not have to exist
+/usr/local/lib/libopencv_aruco.4.0.1.dylib:
+/usr/local/lib/libopencv_bgsegm.4.0.1.dylib:
+/usr/local/lib/libopencv_bioinspired.4.0.1.dylib:
+/usr/local/lib/libopencv_calib3d.4.0.1.dylib:
+/usr/local/lib/libopencv_ccalib.4.0.1.dylib:
+/usr/local/lib/libopencv_core.4.0.1.dylib:
+/usr/local/lib/libopencv_datasets.4.0.1.dylib:
+/usr/local/lib/libopencv_dnn.4.0.1.dylib:
+/usr/local/lib/libopencv_dnn_objdetect.4.0.1.dylib:
+/usr/local/lib/libopencv_dpm.4.0.1.dylib:
+/usr/local/lib/libopencv_face.4.0.1.dylib:
+/usr/local/lib/libopencv_features2d.4.0.1.dylib:
+/usr/local/lib/libopencv_flann.4.0.1.dylib:
+/usr/local/lib/libopencv_fuzzy.4.0.1.dylib:
+/usr/local/lib/libopencv_gapi.4.0.1.dylib:
+/usr/local/lib/libopencv_hfs.4.0.1.dylib:
+/usr/local/lib/libopencv_highgui.4.0.1.dylib:
+/usr/local/lib/libopencv_img_hash.4.0.1.dylib:
+/usr/local/lib/libopencv_imgcodecs.4.0.1.dylib:
+/usr/local/lib/libopencv_imgproc.4.0.1.dylib:
+/usr/local/lib/libopencv_line_descriptor.4.0.1.dylib:
+/usr/local/lib/libopencv_ml.4.0.1.dylib:
+/usr/local/lib/libopencv_objdetect.4.0.1.dylib:
+/usr/local/lib/libopencv_optflow.4.0.1.dylib:
+/usr/local/lib/libopencv_phase_unwrapping.4.0.1.dylib:
+/usr/local/lib/libopencv_photo.4.0.1.dylib:
+/usr/local/lib/libopencv_plot.4.0.1.dylib:
+/usr/local/lib/libopencv_reg.4.0.1.dylib:
+/usr/local/lib/libopencv_rgbd.4.0.1.dylib:
+/usr/local/lib/libopencv_saliency.4.0.1.dylib:
+/usr/local/lib/libopencv_shape.4.0.1.dylib:
+/usr/local/lib/libopencv_stereo.4.0.1.dylib:
+/usr/local/lib/libopencv_stitching.4.0.1.dylib:
+/usr/local/lib/libopencv_structured_light.4.0.1.dylib:
+/usr/local/lib/libopencv_superres.4.0.1.dylib:
+/usr/local/lib/libopencv_surface_matching.4.0.1.dylib:
+/usr/local/lib/libopencv_tracking.4.0.1.dylib:
+/usr/local/lib/libopencv_video.4.0.1.dylib:
+/usr/local/lib/libopencv_videoio.4.0.1.dylib:
+/usr/local/lib/libopencv_videostab.4.0.1.dylib:
+/usr/local/lib/libopencv_xfeatures2d.4.0.1.dylib:
+/usr/local/lib/libopencv_ximgproc.4.0.1.dylib:
+/usr/local/lib/libopencv_xobjdetect.4.0.1.dylib:
+/usr/local/lib/libopencv_xphoto.4.0.1.dylib:
