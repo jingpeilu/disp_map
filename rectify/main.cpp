@@ -2,9 +2,6 @@
  *  stereo_match.cpp
  *  calibration
  *
- *  Created by Victor  Eruhimov on 1/18/10.
- *  Copyright 2010 Argus Corp. All rights reserved.
- *
  */
 
 #include "opencv2/calib3d/calib3d.hpp"
